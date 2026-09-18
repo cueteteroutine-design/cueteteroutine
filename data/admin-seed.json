@@ -1,0 +1,20 @@
+[
+  {
+    "id": "19ae6f64-222e-4aa0-be11-8776c59fee1a",
+    "username": "CR21",
+    "role": "coadmin",
+    "created_at": "2026-07-27 13:01:27.790751+00",
+    "batch_ids": [
+      "ac6fc9bb-01c3-46c3-8bb3-647f6e08a3e2"
+    ],
+    "password_hash": null
+  },
+  {
+    "id": "be1b3f43-63fd-4810-884f-8570b5b3d60c",
+    "username": "ETE_ADMIN",
+    "role": "admin",
+    "created_at": "2025-12-27 07:37:45.226361+00",
+    "batch_ids": [],
+    "password_hash": null
+  }
+]
