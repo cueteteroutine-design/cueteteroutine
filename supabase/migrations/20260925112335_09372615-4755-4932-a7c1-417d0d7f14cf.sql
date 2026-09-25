@@ -1,1 +1,0 @@
-CREATE POLICY "Service manages display theme" ON public.display_settings FOR ALL TO service_role USING (true) WITH CHECK (true);

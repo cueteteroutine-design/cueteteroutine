@@ -1,2 +1,0 @@
-ALTER TABLE public.display_settings DROP CONSTRAINT IF EXISTS display_settings_theme_check;
-ALTER TABLE public.display_settings ADD CONSTRAINT display_settings_theme_check CHECK (theme IN ('classic', 'pulse', 'broadcast', 'aurora-light', 'aurora-dark', 'ocean-light', 'ocean-dark', 'sunset-light', 'sunset-dark', 'orbit-light', 'orbit-dark', 'blueprint-light', 'blueprint-dark', 'editorial-light', 'editorial-dark'));
