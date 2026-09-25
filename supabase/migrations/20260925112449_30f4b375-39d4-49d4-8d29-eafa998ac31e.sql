@@ -1,0 +1,2 @@
+ALTER TABLE public.display_settings DROP CONSTRAINT display_settings_theme_check;
+ALTER TABLE public.display_settings ADD CONSTRAINT display_settings_theme_check CHECK (theme IN ('classic', 'pulse', 'broadcast'));
